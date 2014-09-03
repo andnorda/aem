@@ -1,6 +1,5 @@
 .idea/
 *.iml
-
 *.vlt
-
 target/
+node_modules/

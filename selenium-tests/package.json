@@ -1,0 +1,11 @@
+{
+  "name": "selenum-tests",
+  "version": "0.0.0",
+  "description": "Selenium webdriverjs tests for aem training project",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "repository": "nope",
+  "dependencies": {
+    "selenium-webdriver": "~2.42.1"
+  }
+}
