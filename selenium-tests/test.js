@@ -1,16 +1,17 @@
-var webdriver = require('selenium-webdriver');
+var assert = require('assert'),
+    test = require('selenium-webdriver/testing'),
+    webdriver = require('selenium-webdriver');
 
-var driver = new webdriver.Builder().
-   withCapabilities(webdriver.Capabilities.chrome()).
-   build();
+test.describe('Google Search', function() {
+  test.it('should work', function() {
+    var driver = new webdriver.Builder().build();
 
-driver.get('http://www.google.com');
-driver.findElement(webdriver.By.name('q')).sendKeys('webdriver');
-driver.findElement(webdriver.By.name('btnG')).click();
-driver.wait(function() {
- return driver.getTitle().then(function(title) {
-   return title === 'webdriver - Google Search';
- });
-}, 1000);
+    var searchBox = driver.findElement(webdriver.By.name('q'));
+    searchBox.sendKeys('webdriver');
+    searchBox.getAttribute('value').then(function(value) {
+      assert.equal(value, 'webdriver');
+    });
 
-driver.quit();
+    driver.quit();
+  });
+});

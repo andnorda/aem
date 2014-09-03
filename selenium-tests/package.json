@@ -6,6 +6,7 @@
   "license": "BSD-2-Clause",
   "repository": "nope",
   "dependencies": {
-    "selenium-webdriver": "~2.42.1"
+    "selenium-webdriver": "~2.42.1",
+    "mocha": "~1.21.4"
   }
 }
