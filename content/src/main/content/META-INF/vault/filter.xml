@@ -2,4 +2,5 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/training"/>
     <filter root="/content/training-site"/>
+    <filter root="/etc/designs/trainingDesign"/>
 </workspaceFilter>
