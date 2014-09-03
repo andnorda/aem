@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-09-03T14:46:06.726+02:00"
+        cq:lastModified="{Date}2014-09-03T14:55:46.118+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/training/templates/page-content"
         jcr:lastModified="{Date}2014-09-03T14:44:02.966+02:00"
@@ -13,6 +13,14 @@
         <content
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/parsys">
+            <training_title
+                jcr:created="{Date}2014-09-03T14:55:01.182+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-09-03T14:55:46.117+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Classic classic UI"
+                sling:resourceType="training/components/training-title"/>
             <image
                 jcr:created="{Date}2014-09-03T13:47:51.460+02:00"
                 jcr:createdBy="admin"
