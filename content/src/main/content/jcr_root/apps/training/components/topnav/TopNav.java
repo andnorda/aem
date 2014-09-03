@@ -1,10 +1,12 @@
 package apps.training.components.topnav;
-import java.util.*;
-import java.util.Iterator;
+
 import com.adobe.cq.sightly.WCMUse;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageFilter;
-import info.geometrixx.commons.util.GeoHelper;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class TopNav extends WCMUse {
     private List<Page> items = new ArrayList<Page>();
