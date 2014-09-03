@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>my-group-id</groupId>
-        <artifactId>artifactId</artifactId>
+        <artifactId>training</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -15,9 +15,9 @@
     <!-- P R O J E C T D E S C R I P T I O N -->
     <!-- ====================================================================== -->
 
-    <artifactId>artifactId-bundle</artifactId>
+    <artifactId>training-bundle</artifactId>
     <packaging>bundle</packaging>
-    <name>artifactName Bundle</name>
+    <name>training Bundle</name>
 
     <dependencies>
         <dependency>
@@ -85,7 +85,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>my-group-id.artifactId-bundle</Bundle-SymbolicName>
+                        <Bundle-SymbolicName>my-group-id.training-bundle</Bundle-SymbolicName>
                     </instructions>
                 </configuration>
             </plugin>

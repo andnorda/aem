@@ -6,12 +6,12 @@
     <!-- ====================================================================== -->
 
     <groupId>my-group-id</groupId>
-    <artifactId>artifactId</artifactId>
+    <artifactId>training</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>artifactName - Reactor Project</name>
-    <description>Maven Multimodule project for artifactName.</description>
+    <name>training - Reactor Project</name>
+    <description>Maven Multimodule project for training.</description>
 
     <prerequisites>
         <maven>3.0.2</maven>
