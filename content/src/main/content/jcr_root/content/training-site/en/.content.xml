@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2014-09-03T15:02:29.182+02:00"
+        cq:lastModified="{Date}2014-09-03T16:49:22.267+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/training/templates/page-content"
         jcr:lastModified="{Date}2014-09-03T14:44:02.966+02:00"
@@ -29,6 +29,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/image"
                 fileReference="/content/dam/projects/shapes/cover"/>
+            <listchildren
+                jcr:created="{Date}2014-09-03T16:49:22.265+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-09-03T16:49:22.265+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/listchildren"/>
         </content>
     </jcr:content>
     <company/>

@@ -16,7 +16,7 @@
                         fieldDescription="Here is the page path"
                         fieldLabel="Page Path"
                         name="./pagepath"
-                        xtype="textfield"/>
+                        xtype="pathfield"/>
                 </items>
             </tab1>
         </items>
