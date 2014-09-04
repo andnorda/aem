@@ -14,7 +14,7 @@
                     <title
                         jcr:primaryType="cq:Widget"
                         fieldDescription="Here is the training title"
-                        fieldLabel="Title"
+                        fieldLabel="i18n-title"
                         name="./jcr:title"
                         xtype="textfield"/>
                 </items>
