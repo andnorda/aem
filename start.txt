@@ -1,0 +1,4 @@
+# default JVM options
+if [ -z "$CQ_JVM_OPTS" ]; then
+        CQ_JVM_OPTS='-Xms128m -Xmx2048m -XX:MaxPermSize=256M -agentlib:jdwp=transport=dt_socket,address=30303,server=y,suspend=n -Djava.awt.headless=true'
+fi
