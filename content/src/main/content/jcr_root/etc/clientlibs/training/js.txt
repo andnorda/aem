@@ -1,0 +1,2 @@
+#base=scripts
+trainingEdit.js
