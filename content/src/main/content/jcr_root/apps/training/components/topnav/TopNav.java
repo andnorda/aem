@@ -12,7 +12,11 @@ public class TopNav extends WCMUse {
     private List<Page> items = new ArrayList<Page>();
     // Initializes the navigation
     public void activate() throws Exception {
-        final Page rootPage = getCurrentPage().getAbsoluteParent(2);
+        final String defaultPath = getCurrentPage()
+                .getAbsoluteParent(2)
+                .getPath();
+        final String path = getCurrentStyle().get("pagepath", defaultPath);
+        final Page rootPage = getPageManager().getPage(path);
         if (rootPage != null) {
             Iterator<Page> childPages = rootPage.listChildren(new
                     PageFilter(getRequest()));
