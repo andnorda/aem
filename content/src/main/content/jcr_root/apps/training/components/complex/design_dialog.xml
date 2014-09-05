@@ -9,7 +9,18 @@
         <items jcr:primaryType="cq:WidgetCollection">
             <tab1
                 jcr:primaryType="cq:Panel"
-                title="Tab 1"/>
+                title="Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter a Path"
+                        name="./path"
+                        regex="/^/content/training-site/(.)*$/"
+                        regexText="Please insert a Page that 'lives' under /content/training-site"
+                        rootPath="/content/training-site"
+                        xtype="pathfield"/>
+                </items>
+            </tab1>
         </items>
     </items>
 </jcr:root>
